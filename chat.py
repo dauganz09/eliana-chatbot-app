@@ -28,7 +28,7 @@ model.eval()
 bot_name = "Sam"
 fallback_response = ["I didn't get that. Can you say it again?","I missed what you said. What was that?","Sorry, could you say that again?","Sorry, can you say that again?",
 "Can you say that again?","Sorry, I didn't get that. Can you rephrase?","Sorry, what was that?","I didn't get that. Can you repeat?"]
-random_index = random.randint(0,len(letters)-1)
+random_index = random.choice(range(0, 8))
 
 
 def get_response(msg):
@@ -49,7 +49,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return fallback_response[random_index]
+    return "Sorry, I don't understand."
 
 
 if __name__ == "__main__":
