@@ -28,7 +28,7 @@ model.eval()
 bot_name = "Sam"
 fallback_response = ["I didn't get that. Can you say it again?","I missed what you said. What was that?","Sorry, could you say that again?","Sorry, can you say that again?",
 "Can you say that again?","Sorry, I didn't get that. Can you rephrase?","Sorry, what was that?","I didn't get that. Can you repeat?"]
-random_index = random.choice(range(0, 8))
+
 
 
 def get_response(msg):
