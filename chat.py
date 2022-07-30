@@ -2,7 +2,7 @@ import random
 import json
 
 import torch
-
+import random
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
@@ -26,6 +26,10 @@ model.load_state_dict(model_state)
 model.eval()
 
 bot_name = "Sam"
+fallback_response = ["I didn't get that. Can you say it again?","I missed what you said. What was that?","Sorry, could you say that again?","Sorry, can you say that again?",
+"Can you say that again?","Sorry, I didn't get that. Can you rephrase?","Sorry, what was that?","I didn't get that. Can you repeat?"]
+random_index = random.randint(0,len(letters)-1)
+
 
 def get_response(msg):
     sentence = tokenize(msg)
@@ -45,7 +49,7 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
     
-    return "I do not understand..."
+    return fallback_response[random_index]
 
 
 if __name__ == "__main__":
