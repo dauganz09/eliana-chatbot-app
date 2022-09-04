@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "Greeting",
       "patterns": [
         "Hi",
         "Hey",
@@ -13,6 +13,9 @@
         "heya",
         "howdy",
         "hey there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
         "greetings"
       ],
       "responses": [
@@ -20,12 +23,18 @@
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
         "Hi there, how can I help?",
-        "Good day! What can I do for you today?"
+        "Good day! What can I do for you today?",
+        "Hello, Welcome to ERMT! What can I do for you?"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "tag": "Goodbye",
+      "patterns": [
+        "Bye", 
+        "See you later", 
+        "Goodbye",
+        "See you"
+    ],
       "responses": [
         "See you later, thanks for visiting",
         "Have a nice day",
@@ -33,12 +42,21 @@
       ]
     },
     {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "tag": "Thanks",
+      "patterns": [
+        "Thanks", 
+        "Thank you", 
+        "That's helpful", 
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!", 
+        "Any time!", 
+        "My pleasure"
+      ]
     },
     {
-      "tag": "price",
+      "tag": "Price",
       "patterns": [
         "How much is it?",
         "How much?",
@@ -50,7 +68,7 @@
       ]
     },
     {
-      "tag": "introduction",
+      "tag": "Introduction",
       "patterns": [
         "Name",
         "Your name please?",
@@ -64,27 +82,82 @@
       ]
     },    
     {
-      "tag": "hiring",
+      "tag": "Hiring",
       "patterns": [
         "Hiring?",
         "Are you hiring?",
         "Do you have vacant positions for job?"
       ],
       "responses": [
-        "Yes",
-        "Yes, please visit our website."
+        "No",
+        "As of the moment, No. We will keep you posted here at our website."
       ]
     },
     {
-      "tag": "products",
+      "tag": "Products",
       "patterns": [
         "What do you sell?",
         "What are you products?",
         "Products?"
       ],
       "responses": [
-        "Yes, please refer to our website for the products?",
-        "We sell different kids of sand and gravel"
+        "Please refer to our website for the products?",
+        "We sell Sands, Gravels, Boulders, Armour rocks, Iron Ores, Magnetite sands, and Silica sands."
+      ]
+    },
+    {
+      "tag": "Definition",
+      "patterns": [
+        "FOB",
+        "What is the meaning of FOB?",
+        "Meaning of FOB?",
+        "What is CI?",
+        "Meaning of CIF?"
+      ],
+      "responses": [
+        "FOB means freight on board",
+        "CIF means Cost, Isurance and Freight"
+      ]
+    },
+    {
+      "tag": "Contact Number",
+      "patterns": [
+        "What is your calling number?",
+        "Do you have telephone number?",
+        "Do you have contact numbers?",
+        "What is your contact number?",
+        "Contact number?"
+      ],
+      "responses": [
+        "Yes, our telephone number is 89246263",
+        "Our contact numbers are 0916 256 9559 and 0998 351 4237"
+      ]
+    },
+    {
+      "tag": "Email",
+      "patterns": [
+        "What is your email address?",
+        "Do you have business email adress?",
+        "Where can I send LOI?",
+        "Email address?"
+      ],
+      "responses": [
+        "You can email us at elianaraphamineraltrading@gmail.com",
+        "You can send your other concerns at elianaraphamineraltrading@gmail.com",
+        "You can send us your LOI in elianaraphamineraltrading@gmail.com"
+      ]
+    },
+    {
+      "tag": "Supplier",
+      "patterns": [
+        "What are the different location of your suppliers?",
+        "Are all location have stocks?",
+        "Where can I send LOI?",
+        "Email address?"
+      ],
+      "responses": [
+        "We get supplies from different location",
+        "Yes, we have suppliers from different location"
       ]
     }
   ]

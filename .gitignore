@@ -1,3 +1,5 @@
 #.gitignore
 /venvs
 /__pycache__
+/venv
+/.idea

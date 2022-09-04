@@ -25,7 +25,7 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "RAEL"
 fallback_response = ["I didn't get that. Can you say it again?","I missed what you said. What was that?","Sorry, could you say that again?","Sorry, can you say that again?",
 "Can you say that again?","Sorry, I didn't get that. Can you rephrase?","Sorry, what was that?","I didn't get that. Can you repeat?"]
 
