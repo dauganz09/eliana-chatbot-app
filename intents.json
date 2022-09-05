@@ -76,9 +76,9 @@
         "Do you have a name?"
       ],
       "responses": [
-        "My name is Joy",
-        "I'm Joy",
-        "The name is Joy"
+        "My name is Rael, I am an automated chatbot",
+        "I'm Rael",
+        "The name is Rael"
       ]
     },    
     {
@@ -106,16 +106,25 @@
       ]
     },
     {
-      "tag": "Definition",
+      "tag": "FOB",
       "patterns": [
-        "FOB",
+        "FOB means?",
         "What is the meaning of FOB?",
-        "Meaning of FOB?",
-        "What is CI?",
+        "Meaning of FOB?"
+        
+      ],
+      "responses": [
+        "FOB means freight on board"
+      ]
+    },
+    {
+      "tag": "CIF",
+      "patterns": [
+        "CIF means?",
+        "What is CIF?",
         "Meaning of CIF?"
       ],
       "responses": [
-        "FOB means freight on board",
         "CIF means Cost, Isurance and Freight"
       ]
     },
@@ -126,11 +135,13 @@
         "Do you have telephone number?",
         "Do you have contact numbers?",
         "What is your contact number?",
-        "Contact number?"
+        "Contact number?",
+        "What's your contact no?"
+        
       ],
       "responses": [
-        "Yes, our telephone number is 89246263",
-        "Our contact numbers are 0916 256 9559 and 0998 351 4237"
+        "Our telephone number is 89246263 and our contact numbers are 0916 256 9559 and 0998 351 4237",
+        "Please refer to our numbers in the website"
       ]
     },
     {
@@ -145,6 +156,88 @@
         "You can email us at elianaraphamineraltrading@gmail.com",
         "You can send your other concerns at elianaraphamineraltrading@gmail.com",
         "You can send us your LOI in elianaraphamineraltrading@gmail.com"
+      ]
+    },
+    {
+      "tag": "Sand",
+      "patterns": [
+        "What is your email address?",
+        "Do you have business email adress?",
+        "Where can I send LOI?",
+        "Email address?"
+      ],
+      "responses": [
+        "You can email us at elianaraphamineraltrading@gmail.com",
+        "You can send your other concerns at elianaraphamineraltrading@gmail.com",
+        "You can send us your LOI in elianaraphamineraltrading@gmail.com"
+      ]
+    },
+    {
+      "tag": "Gravel",
+      "patterns": [
+        "What is your email address?",
+        "Do you have business email adress?",
+        "Where can I send LOI?",
+        "Email address?"
+      ],
+      "responses": [
+        "You can email us at elianaraphamineraltrading@gmail.com",
+        "You can send your other concerns at elianaraphamineraltrading@gmail.com",
+        "You can send us your LOI in elianaraphamineraltrading@gmail.com"
+      ]
+    },
+    {
+      "tag": "Boulders",
+      "patterns": [
+        "What is your email address?",
+        "Do you have business email adress?",
+        "Where can I send LOI?",
+        "Email address?"
+      ],
+      "responses": [
+        "You can email us at elianaraphamineraltrading@gmail.com",
+        "You can send your other concerns at elianaraphamineraltrading@gmail.com",
+        "You can send us your LOI in elianaraphamineraltrading@gmail.com"
+      ]
+    },
+    {
+      "tag": "ArmourRocks",
+      "patterns": [
+        "Do you sell Armour Rocks?",
+        "Do you offer Armour Rocks?"
+      ],
+      "responses": [
+        "Yes, we sell Armour Rocks"
+      ]
+    },
+    {
+      "tag": "IronOres",
+      "patterns": [
+       "Do you sell Iron Ores?",
+       "Do you offer Iron Ores?"
+      ],
+      "responses": [
+        "Yes, we sell Iron Ores"
+      ]
+    },
+    {
+      "tag": "MagnetiteSands",
+      "patterns": [
+       "Do you sell Magnetite Sand?",
+       "Do you offer Magnetite Sand?"
+      ],
+      "responses": [
+        "Yes, we sell Magnetite Sand"
+      ]
+    },
+    {
+      "tag": "SilicaSands",
+      "patterns": [
+       "Do you sell Silica Sand?",
+       "Do you offer Silica Sand?"
+      ],
+      "responses": [
+       "Yes, we sell Silica Sand"
       ]
     },
     {
