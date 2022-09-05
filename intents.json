@@ -158,99 +158,242 @@
         "You can send us your LOI in elianaraphamineraltrading@gmail.com"
       ]
     },
+
     {
-      "tag": "Sand",
+      "tag": "MarineSand",
       "patterns": [
-        "What is your email address?",
-        "Do you have business email adress?",
-        "Where can I send LOI?",
-        "Email address?"
+        "Do you offer Marine Sand?",
+        "Do you sell Marine Sand?",
+        "Marine?",
+        "Marine sand?"
+
       ],
       "responses": [
-        "You can email us at elianaraphamineraltrading@gmail.com",
-        "You can send your other concerns at elianaraphamineraltrading@gmail.com",
-        "You can send us your LOI in elianaraphamineraltrading@gmail.com"
+        "We offer Marine Sand located in Zambales, Lanao Mindanao, and Negros as of the moment."
       ]
     },
     {
-      "tag": "Gravel",
+      "tag": "MarineSand_Price",
       "patterns": [
-        "What is your email address?",
-        "Do you have business email adress?",
-        "Where can I send LOI?",
-        "Email address?"
+        "What is the price of Marine Sand",
+        "What is the price of Marine Sand located in Zambales?",
+        "What is the price of Marine Sand located in Lanao Mindanao?",
+        "What is the price of Marine Sand located in Negros?"
       ],
       "responses": [
-        "You can email us at elianaraphamineraltrading@gmail.com",
-        "You can send your other concerns at elianaraphamineraltrading@gmail.com",
-        "You can send us your LOI in elianaraphamineraltrading@gmail.com"
+        "The price of Marine Sand are ₱ 650/CBM For FOB and ₱ 1,400/CBM For CIF."
+      ]
+    },
+
+    {
+      "tag": "RiverSands",
+      "patterns": [
+       "Do you sell River Sand?",
+       "Do you offer River Sand?",
+       "River?",
+       "River sand?"
+      ],
+      "responses": [
+       "We offer River Sand located in Batangas, Zambales, Albay Bicol, Lanao Mindanao, and Negros as of the moment."
       ]
     },
     {
-      "tag": "Boulders",
+      "tag": "RiverSand_Price",
       "patterns": [
-        "What is your email address?",
-        "Do you have business email adress?",
-        "Where can I send LOI?",
-        "Email address?"
+        "What is the price of River Sand",
+        "What is the price of River Sand CIF?",
+        "What is the price of River Sand FOB?",
+        "What is the price of River Sand located in Batangas?",
+        "What is the price of River Sand located in Zambales?",
+        "What is the price of River Sand located in Albay Bicol?",
+        "What is the price of River Sand located in Lanao Mindanao?",
+        "What is the price of River Sand located in Negros?"
       ],
       "responses": [
-        "You can email us at elianaraphamineraltrading@gmail.com",
-        "You can send your other concerns at elianaraphamineraltrading@gmail.com",
-        "You can send us your LOI in elianaraphamineraltrading@gmail.com"
+        "The price of River Sand are ₱ 500/MT For FOB and ₱ 1,200/MT For CIF."
       ]
     },
+
     {
       "tag": "ArmourRocks",
       "patterns": [
-        "Do you sell Armour Rocks?",
-        "Do you offer Armour Rocks?"
+       "Do you sell Armour Rocks?",
+       "Do you offer Armour Rocks?",
+       "Armour?",
+       "Armour Rocks?"
       ],
       "responses": [
-        "Yes, we sell Armour Rocks"
+       "We offer Armour Rocks located in Batangas, and Albay Bicol as of the moment."
       ]
     },
+    {
+      "tag": "ArmourRocks_Price",
+      "patterns": [
+        "What is the price of River Sand",
+        "What is the price of River Sand CIF?",
+        "What is the price of River Sand FOB?",
+        "What is the price of River Sand located in Batangas?",
+        "What is the price of River Sand located in Albay Bicol?"
+      ],
+      "responses": [
+        "The price of Armour Rocks are ₱ 850/MT For FOB and ₱ 1,500/MT For CIF."
+      ]
+    },
+
+    {
+      "tag": "Boulders",
+      "patterns": [
+        "Do you sell Boulders?",
+        "Do you offer Boulders?",
+        "Boulders?"
+      ],
+      "responses": [
+        "We offer Boulders located in Batangas, and Albay Bicol as of the moment."
+      ]
+    },
+    {
+      "tag": "Boulders_Price",
+      "patterns": [
+        "What is the price of Boulders",
+        "What is the price of Boulders CIF?",
+        "What is the price of Boulders FOB?",
+        "What is the price of Boulders located in Batangas?",
+        "What is the price of Boulders located in Albay Bicol?"
+      ],
+      "responses": [
+        "The price of Boulders are ₱ 850/MT For FOB and ₱ 1,500/MT For CIF."
+      ]
+    },
+    
     {
       "tag": "IronOres",
       "patterns": [
-       "Do you sell Iron Ores?",
-       "Do you offer Iron Ores?"
+        "Do you sell Iron Ores?",
+        "Do you offer Iron Ores?",
+        "Iron?",
+        "Ores?"
       ],
       "responses": [
-        "Yes, we sell Iron Ores"
+        "We offer Iron Ores located in Pampanga, Mati Davao, Pangasinan, Zamboanga Sibugay, and Bataan as of the moment."
+
       ]
     },
     {
-      "tag": "MagnetiteSands",
+      "tag": "IronOres_Price",
       "patterns": [
-       "Do you sell Magnetite Sand?",
-       "Do you offer Magnetite Sand?"
+        "What is the price of Iron Ores",
+        "What is the price of Iron Ores CIF?",
+        "What is the price of Iron Ores FOB?",
+        "What is the price of Iron Ores located in Pampanga?",
+        "What is the price of Iron Ores located in Mati Davao?",
+        "What is the price of Iron Ores located in Pangasinan?",
+        "What is the price of Iron Ores located in Zamboanga Sibugay?",
+        "What is the price of Iron Ores located in Bataan?"
       ],
       "responses": [
-        "Yes, we sell Magnetite Sand"
+        "The price of Iron Ore vary depending on the percentage of the assay, $77/MT For 58% grade FOB,  $81/MT For 62% grade FOB, $85/MT For 65% grade FOB and etc. If you wish to know more about the price kindly send us a message through our email address or contact numbers located in our website."
+      ]
+    },
+
+    {
+      "tag": "CopperOre",
+      "patterns": [
+        "Do you sell Copper Ore?",
+        "Do you offer Copper Ore?",
+        "Copper Ore?",
+        "Copper?"
+      ],
+      "responses": [
+        "We offer Copper Ore located in Pangasinan as of the moment."
       ]
     },
     {
-      "tag": "SilicaSands",
+      "tag": "CopperOre_Price",
       "patterns": [
-       "Do you sell Silica Sand?",
-       "Do you offer Silica Sand?"
+        "What is the price of Copper Ore?",
+        "What is the price of Copper Ore CIF?",
+        "What is the price of Copper Ore FOB?",
+        "What is the price of Copper Ore located in Pangasinan?"
       ],
       "responses": [
-       "Yes, we sell Silica Sand"
+        "The price of Copper Ore vary depending on the percentage of the assay, $410/MT For 10% grade FOB,  $1,066/MT For 20% grade FOB, $1,889/MT For 32% grade FOB and etc. If you wish to know more about the price kindly send us a message through our gmail address or contact numbers located in our website."
+      ]
+    },
+
+    {
+      "tag": "NikleOre",
+      "patterns": [
+        "Do you sell Nikle Ore?",
+        "Do you offer Nikle Ore?",
+        "Nikle Ore?",
+        "Nikle?"
+      ],
+      "responses": [
+        "We offer Nikle Ore located in Pangasinan, and Zamboanga Sibugay as of the moment."
       ]
     },
     {
-      "tag": "Supplier",
+      "tag": "NiklerOre_Price",
       "patterns": [
-        "What are the different location of your suppliers?",
-        "Are all location have stocks?",
-        "Where can I send LOI?",
-        "Email address?"
+        "What is the price of Nikle Ore?",
+        "What is the price of Nikle Ore CIF?",
+        "What is the price of Nikle Ore FOB?",
+        "What is the price of Nikle Ore located in Pangasinan?",
+        "What is the price of Nikle Ore located in Zamboanga Sibugay?"
       ],
       "responses": [
-        "We get supplies from different location",
-        "Yes, we have suppliers from different location"
+        "wala pa as of now"
+      ]
+    },
+
+    {
+      "tag": "SilicaQuartz",
+      "patterns": [
+        "Do you sell Silica Quartz?",
+        "Do you offer Silica Quartz?",
+        "Silica Quartz?",
+        "Silica?",
+        "Quartz?"
+      ],
+      "responses": [
+        "We offer Silica Quartz located in Pangasinan as of the moment."
+      ]
+    },
+    {
+      "tag": "SilicaQuartz_Price",
+      "patterns": [
+        "What is the price of Silica Quartz?",
+        "What is the price of Silica Quartz CIF?",
+        "What is the price of Silica Quartz FOB?",
+        "What is the price of Silica Quartz located in Pangasinan?"
+      ],
+      "responses": [
+        "The price of Silica Quartz are ₱ 1,400/MT For (Pickup) and $47/MT For FOB 98% Assay Grade."
+      ]
+    },
+
+    {
+      "tag": "BlackSand",
+      "patterns": [
+       "Do you sell Black Sand?",
+       "Do you offer Black Sand?",
+       "Black?",
+       "Blac sand?"
+      ],
+      "responses": [
+        "We offer Black Sand located in Lanao Mindanao as of the moment."
+      ]
+    },
+    {
+      "tag": "BlackSand_Price",
+      "patterns": [
+        "What is the price of Black Sand",
+        "What is the price of Black Sand CIF?",
+        "What is the price of Black Sand FOB?",
+        "What is the price of Black Sand located in Lanao Mindanao?"
+      ],
+      "responses": [
+        "The price of Black Sand are ₱ 650/MT For FOB and ₱ 1,400/MT For CIF"
       ]
     }
   ]
