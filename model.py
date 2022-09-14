@@ -11,10 +11,12 @@ class NeuralNet(nn.Module):
         self.relu = nn.ReLU()
     
     def forward(self, x):
+        #"You just have to define the forward function, and the backward function (where gradients are computed) is automatically defined for us
         out = self.l1(x)
         out = self.relu(out)
         out = self.l2(out)
         out = self.relu(out)
         out = self.l3(out)
         # no activation and no softmax at the end
+        #  In the last layer, we don’t need an activation function because later on, in our code, we will use cross-entropy loss and it automatically applies an activation function for us.
         return out
