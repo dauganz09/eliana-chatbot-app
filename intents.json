@@ -164,6 +164,8 @@
       "patterns": [
         "Do you offer Marine Sand?",
         "Do you sell Marine Sand?",
+        "Location of Marine?",
+        "Location of Marine Sand?",
         "Marine?",
         "Marine sand?"
 
@@ -190,6 +192,8 @@
       "patterns": [
        "Do you sell River Sand?",
        "Do you offer River Sand?",
+       "Location of River?",
+       "Location of River Sand?",
        "River?",
        "River sand?"
       ],
@@ -219,6 +223,8 @@
       "patterns": [
        "Do you sell Armour Rocks?",
        "Do you offer Armour Rocks?",
+       "Location of Armour?",
+       "Location of Armour Rocks?",
        "Armour?",
        "Armour Rocks?"
       ],
@@ -245,6 +251,7 @@
       "patterns": [
         "Do you sell Boulders?",
         "Do you offer Boulders?",
+        "Location of Boulders?",
         "Boulders?"
       ],
       "responses": [
@@ -270,6 +277,8 @@
       "patterns": [
         "Do you sell Iron Ores?",
         "Do you offer Iron Ores?",
+        "Location of Iron?",
+        "Location of Iron Ores?",
         "Iron?",
         "Ores?"
       ],
@@ -300,6 +309,8 @@
       "patterns": [
         "Do you sell Copper Ore?",
         "Do you offer Copper Ore?",
+        "Location of Copper?",
+        "Location of Copper Ore?",
         "Copper Ore?",
         "Copper?"
       ],
@@ -326,6 +337,8 @@
         "Do you sell Nikle Ore?",
         "Do you offer Nikle Ore?",
         "Nikle Ore?",
+        "Location of Nikle?",
+        "Location of Nikle Ore?",
         "Nikle?"
       ],
       "responses": [
@@ -351,6 +364,8 @@
       "patterns": [
         "Do you sell Silica Quartz?",
         "Do you offer Silica Quartz?",
+        "Location of Silica?",
+        "Location of Silica Quartz",
         "Silica Quartz?",
         "Silica?",
         "Quartz?"
@@ -377,6 +392,8 @@
       "patterns": [
        "Do you sell Black Sand?",
        "Do you offer Black Sand?",
+       "Location of Black?",
+       "Location of Black Sand?",
        "Black?",
        "Blac sand?"
       ],
